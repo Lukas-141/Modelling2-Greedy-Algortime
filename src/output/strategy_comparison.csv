@@ -1,0 +1,4 @@
+Strategie,Bases,Bereikt,Percentage,Postcodes
+Max Coverage (Greedy),"7341, 7054, 3843, 7251, 7141",738465,91.18%,173
+Max Speed,"3843, 8079, 8191, 7335, 7396",409875,50.61%,83
+Balanced,"7317, 7007, 3843, 7231, 7141",745000,91.99%,181

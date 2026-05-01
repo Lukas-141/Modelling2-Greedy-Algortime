@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ambulance-greedy-optimizer"
+version = "0.1.0"
+description = "A project to determine optimal locations for ambulances using a greedy algorithm."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

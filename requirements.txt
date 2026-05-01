@@ -1,0 +1,10 @@
+
+Idee van het algorythm:
+
+- per postcode het aantal andere postcodes tellen die binnen 15 min bereikt kunnen worden
+    - Dit beschouwen we als het ware als een punt in het netwerk/de graaf, waarbij een edge 
+      naar een andere postcode wordt geplaatst als deze te bereikenn is binnen 
+      15 min (900 seconden)
+- van elk van deze bereikte postcodes de demand optellen
+- postcode met de hoogste score is het meest efficient, hier wordt een ambulance geplaatst
+- Vervolgens de postcodes die al bereikt kunnen worden verwijderen, dan nog p keer runnen
